@@ -1,3 +1,10 @@
+"""
+文件名: brightness_control.py
+版本: 1.2
+用途: 实现了一个无边框、全屏覆盖的小部件，用于通过改变透明度来调整屏幕亮度。
+作者: 好吃的秋梨膏
+更新日期: 2024-6-4
+"""
 from PyQt5.QtWidgets import QWidget
 from PyQt5.QtGui import QPainter, QColor
 from PyQt5.QtCore import Qt

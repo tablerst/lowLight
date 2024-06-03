@@ -1,3 +1,10 @@
+"""
+文件名: tray_icon.py
+版本: 1.2
+用途: 实现一个系统托盘图标应用，允许用户通过滑动条调节屏幕亮度、色温和色温透明度，并提供退出应用的选项。
+作者: 好吃的秋梨膏
+更新日期: 2024-6-4
+"""
 from PyQt5.QtWidgets import QSystemTrayIcon, QMenu, QSlider, QLabel, QHBoxLayout, QWidgetAction, QAction, QWidget
 from PyQt5.QtGui import QIcon
 from PyQt5.QtCore import Qt

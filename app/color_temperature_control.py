@@ -1,3 +1,10 @@
+"""
+文件名: color_temperature_control.py
+版本: 1.2
+用途: 实现了一个无边框、全屏覆盖的小部件，用于通过改变颜色和透明度来调整屏幕的色温。初始色温设定为4000K，初始透明度为5%。
+作者: 好吃的秋梨膏
+更新日期: 2024-6-4
+"""
 from PyQt5.QtWidgets import QWidget
 from PyQt5.QtGui import QPainter, QColor
 from PyQt5.QtCore import Qt
@@ -16,7 +23,7 @@ class ColorTemperatureControl(QWidget):
         self.setGeometry(0, 0, QApplication.primaryScreen().size().width(),
                          QApplication.primaryScreen().size().height())
         self.colorTemperature = 4000  # 初始值改为4000K
-        self.alpha = 10  # 透明度初始值改为10%
+        self.alpha = 5  # 透明度初始值改为5%
         self.updateColorTemperature()
 
     def updateColorTemperature(self):
