@@ -1,0 +1,73 @@
+/* style.qss */
+QMenu {
+    background-color: #2d2d2d;
+    color: white;
+    border: 1px solid #3e3e3e;
+    border-radius: 5px;
+}
+
+QMenu::item {
+    background-color: transparent;
+    padding: 8px 20px;
+}
+
+QMenu::item:selected {
+    background-color: #505050;
+}
+
+QSlider::groove:horizontal {
+    border: 1px solid #bbb;
+    background: #3e3e3e;
+    height: 10px;
+    border-radius: 4px;
+}
+
+QSlider::sub-page:horizontal {
+    background: #52ade9;
+    border: 1px solid #777;
+    height: 10px;
+    border-radius: 4px;
+}
+
+QSlider::add-page:horizontal {
+    background: #575757;
+    border: 1px solid #777;
+    height: 10px;
+    border-radius: 4px;
+}
+
+QSlider::handle:horizontal {
+    background: #52ade9;
+    border: 1px solid #3e3e3e;
+    width: 14px;
+    margin: -2px 0;
+    border-radius: 7px;
+}
+
+QSlider::handle:horizontal:hover {
+    background: #6bbaff;
+    border: 1px solid #3e3e3e;
+    width: 14px;
+    margin: -2px 0;
+    border-radius: 7px;
+}
+
+QSlider::handle:horizontal:disabled {
+    background: #3e3e3e;
+    border: 1px solid #2e2e2e;
+}
+
+QSlider::sub-page:horizontal:disabled {
+    background: #bbb;
+    border-color: #999;
+}
+
+QSlider::add-page:horizontal:disabled {
+    background: #777;
+    border-color: #999;
+}
+
+QLabel {
+    color: white;
+    font-size: 12px;
+}
